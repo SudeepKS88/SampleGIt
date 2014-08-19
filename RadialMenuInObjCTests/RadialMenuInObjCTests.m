@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-//#import <SenTestingKit/SenTestingKit.h>
+#import <SenTestingKit/SenTestingKit.h>
 
 @interface RadialMenuInObjCTests : XCTestCase
 
