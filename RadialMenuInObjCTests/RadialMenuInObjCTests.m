@@ -34,7 +34,7 @@
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
-    STAssertEqualObjects(@"1",@"1", @"name is wrong");
+    STAssertEqualObjects(@"1",@"2", @"name is wrong");
 
 }
 
