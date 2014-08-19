@@ -10,7 +10,7 @@
 #import <XCTest/XCTest.h>
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface RadialMenuInObjCTests : XCTestCase
+@interface RadialMenuInObjCTests : SenTestCase
 
 @end
 
@@ -28,15 +28,14 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    STAssertEqualObjects(@"2",@"2", @"name is wrong");
     
 }
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    STAssertEqualObjects(@"1",@"1", @"name is wrong");
+
 }
 
 @end
